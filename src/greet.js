@@ -1,3 +1,5 @@
-const greeting = 'Hello World'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-export default greeting
+ReactDOM.render(<App/>, document.getElementById('app'))
